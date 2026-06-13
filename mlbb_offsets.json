@@ -1,0 +1,48 @@
+{
+  "version": "1.2.3",
+  "last_update": "2026-06-13",
+  "BattleManager": {
+    "BasePtr": "0x6F06DB8",
+    "LocalPlayerShow": "0x50",
+    "ShowPlayers": "0x78",
+    "ShowMonsters": "0x80",
+    "PtrChain1": "0xB8",
+    "ListDataOffset": "0x10",
+    "ListCountOffset": "0x18",
+    "ListArrayOffset": "0x20"
+  },
+  "ShowEntity": {
+    "iType": "0x80",
+    "Hp": "0x1ac",
+    "HpMax": "0x1b0",
+    "bDeath": "0xcd",
+    "bSameCampType": "0x2b1",
+    "vCachePosition": "0x294",
+    "HeroID": "0x194",
+    "Level": "0x198",
+    "KillWild": "0xA60",
+    "m_killNum": "0xa20",
+    "m_assistNum": "0xa24",
+    "m_ShowCoolDownComp": "0x100"
+  },
+  "ShowPlayer": {
+    "HeroName": "0x468",
+    "m_EntityCampType": "0xd8"
+  },
+  "Camera": {
+    "MainCameraPtr": "0x6EF4430",
+    "CameraData": "0xb8",
+    "CameraData2": "0x08",
+    "SmoothFollow": "0x10",
+    "ViewMatrix": "0x5C"
+  },
+  "String": {
+    "LengthOffset": "0x10",
+    "BufferOffset": "0x14"
+  },
+  "SystemData": {
+    "BasePtr": "0x6f581a8",
+    "m_RoomPlayerInfo": "0x308",
+    "m_uiID": "0x318"
+  }
+}
